@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:id="@+id/widget27"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout
+        android:id="@+id/widget28"
+        android:layout_width="200px"
+        android:layout_height="219px"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+        <TextView
+            android:id="@+id/widget30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dollar"
+            android:textStyle="bold"
+            >
+        </TextView>
+        <EditText
+            android:id="@+id/dollar"
+            android:layout_width="100px"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            >
+        </EditText>
+        <TextView
+            android:id="@+id/widget32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rupiah"
+            android:textStyle="bold"
+            >
+        </TextView>
+        <EditText
+            android:id="@+id/rupiah"
+            android:layout_width="100px"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            >
+        </EditText>
+        <RadioButton
+            android:id="@+id/dtor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dollar to Rupiah"
+            >
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/rtod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rupiah to Dollar"
+            >
+        </RadioButton>
+    </LinearLayout>
+    <Button
+        android:id="@+id/convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Konversi"
+        android:layout_below="@+id/widget28"
+        android:layout_alignRight="@+id/widget28"
+        >
+    </Button>
+</RelativeLayout>
